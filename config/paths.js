@@ -8,5 +8,5 @@ module.exports = {
   build: path.resolve(__dirname, '../dist'),
 
   // Static files that get copied to dist folder
-  public: path.resolve(__dirname, '../public'),
+  assets: path.resolve(__dirname, '../assets'),
 }

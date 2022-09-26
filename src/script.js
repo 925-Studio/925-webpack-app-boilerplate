@@ -1,8 +1,8 @@
 // Test import of a JavaScript module
-import { example } from '@/js/example'
+import { example } from '@/modules/example'
 
 // Test import of an asset
-import webpackLogo from '@/images/webpack-logo.svg'
+import webpackLogo from '../assets/images/webpack-logo.svg'
 
 // Test import of styles
 import '@/styles/style.sass'
@@ -18,9 +18,9 @@ heading.textContent = example()
 const imageBackground = document.createElement('div')
 imageBackground.classList.add('image')
 
-// Test a public folder asset
-const imagePublic = document.createElement('img')
-imagePublic.src = 'assets/example.png'
+// Test a assets folder file
+const imageAssets = document.createElement('img')
+imageAssets.src = 'assets/images/example.png'
 
 const app = document.querySelector('#root')
-app.append(logo, heading, imageBackground, imagePublic)
+app.append(logo, heading, imageBackground, imageAssets)

@@ -23,8 +23,8 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: paths.public,
-          to: 'assets',
+          from: paths.assets,
+          to: paths.build + '/assets',
           globOptions: {
             ignore: ['*.DS_Store'],
           },
@@ -36,7 +36,7 @@ module.exports = {
     // Generates an HTML file from a template
     new HtmlWebpackPlugin({
       title: 'Change Me',
-      favicon: paths.src + '/images/favicon.png',
+      favicon: paths.assets + '/images/favicon.png',
       template: paths.src + '/template.html', // template file
       filename: 'index.html', // output file
     }),
@@ -61,7 +61,7 @@ module.exports = {
     extensions: ['.js', '.jsx', '.json'],
     alias: {
       '@': paths.src,
-      assets: paths.public,
+      assets: paths.assets
     },
   },
 }
