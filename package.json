@@ -1,8 +1,8 @@
 {
-  "name": "change-me",
+  "name": "webpack-5-boilerplate",
   "version": "",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "author": "Tania Rascia",
   "maintainer": "Silver Von",
   "license": "MIT",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/925-Studio/boilerplate-webpack-5.x.git"
+    "url": "https://github.com/925-Studio/boilerplate-webpack-5.git"
   }
 }

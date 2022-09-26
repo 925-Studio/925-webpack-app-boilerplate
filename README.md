@@ -1,4 +1,4 @@
-# 📦 webpack 5.x Boilerplate
+# 📦 webpack 5 Boilerplate
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -9,7 +9,7 @@ Sensible webpack 5 boilerplate using Babel, PostCSS and Sass.
 Clone this repo...
 
 ```zsh
-git clone https://github.com/925-Studio/boilerplate-webpack-5.x.git
+git clone https://github.com/925-Studio/boilerplate-webpack-5.git
 ```
 
 then install.
