@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/925-Studio/boilerplates/webpack_boilerplate"
+    "url": "https://github.com/925-Studio/boilerplate-webpack-5.x.git"
   }
 }

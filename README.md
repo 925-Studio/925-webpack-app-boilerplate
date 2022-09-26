@@ -9,7 +9,7 @@ Sensible webpack 5 boilerplate using Babel, PostCSS and Sass.
 Clone this repo...
 
 ```zsh
-git clone https://github.com/925-Studio/boilerplates/webpack_boilerplate
+git clone https://github.com/925-Studio/boilerplate-webpack-5.x.git
 ```
 
 then install.
