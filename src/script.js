@@ -5,7 +5,7 @@ import { example } from '@/modules/example'
 import webpackLogo from '../assets/images/webpack-logo.svg'
 
 // Test import of styles
-import '@/styles/style.sass'
+import 'style.scss'
 
 // Appending to the DOM
 const logo = document.createElement('img')
