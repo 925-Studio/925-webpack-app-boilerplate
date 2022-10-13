@@ -1,3 +1,5 @@
+// Dependency
+import 'regenerator-runtime/runtime'
 // Test import of a JavaScript module
 import { example } from '@/modules/example'
 
