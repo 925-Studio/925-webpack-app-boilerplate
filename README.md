@@ -98,9 +98,9 @@ cd dist && http-server
 
 - [Tania Rascia](https://www.taniarascia.com)
 
-## Maintainer
+## Tweaked by
 
-- Silver Von
+- [925 Studio](https://github.com/925-Studio)
 
 ## License
 
